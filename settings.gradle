@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ContributorConcept"
+include ':app'
+include ':contributors:home-contributor'
+include ':contributors:dashboard-contributor'
+include ':contributors:notification-contributor'
+include ':manager'
+include ':contributor-api'

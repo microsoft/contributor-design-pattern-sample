@@ -1,14 +1,16 @@
-# Project
+# Contributor Concept
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This project implements the contributor design pattern explained in my medium article on
+[Scaling Teams Mobile Development — Evolving the design pattern](https://medium.com/microsoft-mobile-engineering/scaling-teams-mobile-development-evolving-the-design-pattern-c3c8ff53facb)
 
-As the maintainer of this project, please make a few updates:
+### contributor-api
+This module contains the contributor contracts
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+### manager
+This module contains the manager which collects contributors and contributions, orders them and provides to the main app.
+
+### contributors
+This folder contains contributor implementations.
 
 ## Contributing
 
